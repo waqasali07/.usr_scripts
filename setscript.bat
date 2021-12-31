@@ -1,2 +1,2 @@
 @echo off
-set SCRIPT_DIR=C:\Users\wali4\.usr_scripts
+set SCRIPT_DIR="C:\Users\%username%\.usr_scripts"
