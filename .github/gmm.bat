@@ -1,2 +1,2 @@
 @echo off
-git merge master
+git merge main
