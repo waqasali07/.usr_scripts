@@ -10,6 +10,10 @@ IF exist "%SCRIPT_DIR%\.work\%F%.bat" (
 set FILE="%SCRIPT_DIR%\.work\%F%.bat"
 goto end
 )
+IF exist "%WORK_DIR%\%F%.bat" (
+set FILE="%WORK_DIR%\%F%.bat"
+goto end
+)
 IF exist "%SCRIPT_DIR%\.github\%F%.bat" (
 set FILE="%SCRIPT_DIR%\.github\%F%.bat"
 goto end
