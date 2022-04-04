@@ -38,6 +38,6 @@ echo SCRIPT_DIR = %SCRIPT_DIR%
 echo GH_Dir = %GH_DIR%
 echo WRK_DIR = %WRK_DIR%
 echo APPS_DIR = %APPS_DIR%
-powershell .\setup.ps1 "%SCRIPT_DIR%" "%GH_DIR%" "%WRK_DIR%" "%APPS_DIR%"
+powershell .\setup.ps1 '%SCRIPT_DIR%' '%GH_DIR%' '%WRK_DIR%' '%APPS_DIR%'
 :no
 echo Bye!

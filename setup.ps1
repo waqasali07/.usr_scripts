@@ -1,7 +1,7 @@
 Import-Module -Name ".\EnvPaths.psm1"
 
 for ( $i = 0; $i -lt $args.count; $i++ ) {
-	# write-host "Argument  $i is $($args[$i])"
+	write-host "Argument  $i is $($args[$i])"
     Add-EnvPath "$($args[$i])" "User"
 }
 
