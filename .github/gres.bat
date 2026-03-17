@@ -1,2 +1,2 @@
 @echo off
-git restore %1
+git restore %*

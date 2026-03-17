@@ -1,6 +1,6 @@
 @echo off
 if "_%1_" == "__" goto err
-git merge %1
+git merge %*
 goto end
 :err
 echo no branch name provided

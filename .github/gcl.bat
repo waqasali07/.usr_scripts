@@ -1,2 +1,2 @@
 @echo off
-git clone %1
+git clone %*

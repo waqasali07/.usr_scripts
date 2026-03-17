@@ -1,2 +1,2 @@
 @echo off
-git push %1
+git push %*
