@@ -1,7 +1,7 @@
 #! /bin/bash
 
-export QTCSH=/home/dev/Qt/Tools/QtCreator/bin/qtcreator.sh
-
+#export QTCSH=/home/dev/Qt/Tools/QtCreator/bin/qtcreator.sh
+export QTCSH=/c/Qt/Tools/QtCreator/bin/qtcreator.exe
 #git
 alias gst="git status"
 alias gbr="git branch"
